@@ -1,0 +1,22 @@
+export default {
+
+    // aws 全体
+    aws: {
+        region: "ap-northeast-1"
+    },
+
+    image: {
+        source: {
+            extentions: [
+                "jpg",
+                "jpeg",
+                "png",
+                "bmp",
+                "gif"
+            ]
+        },
+        quality: 30,
+        preset: "text"
+    }
+
+};
